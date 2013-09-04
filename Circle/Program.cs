@@ -40,8 +40,8 @@ namespace Circle
 			Console.WriteLine ("Der findes en cirkel: ", c);
 			Console.WriteLine ("Skriv et punkt for at teste om det ligger i cirklen");
 
-			float x = GetValue ("X? ");
-			float y = GetValue ("Y? ");
+			double x = GetValue ("X? ");
+			double y = GetValue ("Y? ");
 
 			if (c.IsInside (x, y)) {
 				Console.WriteLine ("{0},{1} var i cirklen!");
