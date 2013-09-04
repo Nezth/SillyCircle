@@ -1,3 +1,5 @@
 I dette projekt er der et smart program der kan afgøre om et punkt ligger inden for en cirkel, eller ej.
 
 Desværre har jeg glemt at lave det meste af implementationen... Det er nu jeres opgave!
+
+Husk at håndtere, og kaste exceptions!
