@@ -9,11 +9,11 @@ namespace Circle
 		 * Skal kaste en exception hvis r er negativ!
 		 */
 
-		public Circle(float x, float y, float r) {
 			
+		public Circle(double x, double y, double r) {
 		}
 
-		public bool IsInside(float x, float y) {
+		public bool IsInside(double x, double y) {
 			throw new System.NotImplementedException();
 		}
 
@@ -22,10 +22,9 @@ namespace Circle
 	class MainClass
 	{
 		/**
-		 * Udskriver `name` og venter på at brugeren indtaster et tal
 		 * note: skal tjekke og håndtere exceptions 
 		 */
-		static float GetValue(string name) {
+		static double GetValue(string name) {
 			throw new System.NotImplementedException();
 		}
 
